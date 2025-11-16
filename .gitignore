@@ -1,0 +1,8 @@
+*.fastq.gz
+filtered/
+fastq_files/
+microbiom_trimmed/
+*.RData
+*.RDS
+*.csv
+*.html
