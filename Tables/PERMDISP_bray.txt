@@ -1,0 +1,41 @@
+Analysis of Variance Table
+
+Response: Distances
+          Df  Sum Sq   Mean Sq F value Pr(>F)
+Groups     2 0.00599 0.0029949  0.2318 0.7966
+Residuals 12 0.15503 0.0129194               
+
+Permutation test for homogeneity of multivariate dispersions
+Permutation: free
+Number of permutations: 999
+
+Response: Distances
+          Df  Sum Sq   Mean Sq      F N.Perm Pr(>F)
+Groups     2 0.00599 0.0029949 0.2318    999   0.83
+Residuals 12 0.15503 0.0129194                     
+Permutation test for adonis under reduced model
+Permutation: free
+Number of permutations: 999
+
+adonis2(formula = dist_bray ~ Treatment, data = samdf, permutations = 999)
+         Df SumOfSqs      R2      F Pr(>F)   
+Model     2  0.55884 0.28479 2.3891  0.009 **
+Residual 12  1.40346 0.71521                 
+Total    14  1.96229 1.00000                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Permutation test for adonis under reduced model
+Permutation: free
+Number of permutations: 999
+
+adonis2(formula = dist_bray ~ Treatment, data = samdf, permutations = 999)
+         Df SumOfSqs      R2      F Pr(>F)   
+Model     2  0.55884 0.28479 2.3891  0.009 **
+Residual 12  1.40346 0.71521                 
+Total    14  1.96229 1.00000                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+phyloseq-class experiment-level object
+otu_table()   OTU Table:         [ 4011 taxa and 15 samples ]
+sample_data() Sample Data:       [ 15 samples by 2 sample variables ]
+tax_table()   Taxonomy Table:    [ 4011 taxa by 7 taxonomic ranks ]

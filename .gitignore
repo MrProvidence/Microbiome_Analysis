@@ -6,3 +6,4 @@ microbiom_trimmed/
 *.RDS
 *.csv
 *.html
+.Rproj.user
